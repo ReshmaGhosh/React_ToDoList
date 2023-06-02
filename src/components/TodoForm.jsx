@@ -30,7 +30,7 @@ export default function TodoForm({ addTodo }) {
           value={date}
           onChange={(e) => setDate(e.target.value)}
           required
-        />{" "}
+        />
         <br />
       </label>
       <label>
@@ -44,7 +44,7 @@ export default function TodoForm({ addTodo }) {
           <option value="in-progress">In progress</option>
           <option value="done">Done</option>
         </select>
-      </label>{" "}
+      </label>
       <br />
       <button type="submit">Submit</button>
     </form>
